@@ -5,7 +5,7 @@ import './index.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider } from "react-router" // Importation du RouterProvider de react-router
+import { RouterProvider } from "react-router-dom" // Importation du RouterProvider de react-router
 import router from './router'; // Importation de l'objet de routage
 
 const root = ReactDOM.createRoot(document.getElementById('root')); // Création de la racine du rendu React

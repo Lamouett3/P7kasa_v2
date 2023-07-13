@@ -1,0 +1,39 @@
+.profile-bubble {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: transparent;
+    margin-top: -75px;
+    margin-bottom: 50px;
+
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.profile-name {
+    font-size: 18px;
+    color: #FF6060;
+    padding-right: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-bubble {
+        margin-top: 50px;
+        margin-bottom: -105px;
+    }
+
+    .profile-picture {
+        width: 32px;
+        height: 32px;
+    }
+
+    .profile-name {
+        font-size: 12px;
+    }
+}

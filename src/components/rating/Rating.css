@@ -1,0 +1,16 @@
+.rating {
+    display: flex;
+    font-size: x-large;
+    justify-content: right;
+}
+
+.filled {
+    color: #ff6060;
+}
+
+@media only screen and (max-width: 768px) {
+    .rating {
+        justify-content: left;
+        font-size: large;
+    }
+}

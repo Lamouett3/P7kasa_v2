@@ -1,0 +1,28 @@
+.footer {
+    background-color: black;
+    margin-top: 5%;
+    height: 209px;
+    /* Ajuster selon vos besoins */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer img {
+    height: 39.444419860839844px;
+    width: 122px;
+    display: flex;
+    margin: auto;
+
+}
+
+.footer p {
+    width: 513px;
+    text-align: center;
+    color: white;
+}
